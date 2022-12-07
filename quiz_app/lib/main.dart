@@ -5,13 +5,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:quiz_app/sharedprefarance/constants.dart';
 import 'package:quiz_app/views/home.dart';
 import 'package:quiz_app/views/signin.dart';
-class MyHttpOverrides extends HttpOverrides{
-  @override
-  HttpClient createHttpClient(SecurityContext? context){
-    return super.createHttpClient(context)
-      ..badCertificateCallback = (X509Certificate cert, String host, int port)=> true;
-  }
-}
+// class MyHttpOverrides extends HttpOverrides{
+//   @override
+//   HttpClient createHttpClient(SecurityContext? context){
+//     return super.createHttpClient(context)
+//       ..badCertificateCallback = (X509Certificate cert, String host, int port)=> true;
+//   }
+// }
  Future<void> main() async {
    WidgetsFlutterBinding.ensureInitialized();
    await Firebase.initializeApp();
@@ -34,7 +34,7 @@ class _MyAppState extends State<MyApp> {
   checkuserlogin()async{
    Helperlogdetails.getuserlogindetails().then((value){
     setState(() {
-      _isloggedin=value!;
+      _isloggedin==value;
     });
    });
   }

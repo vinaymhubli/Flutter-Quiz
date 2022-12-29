@@ -1,4 +1,5 @@
-# Flutter-Quiz
+# Flutter-Quiz 🤔❓
+Developed and implemented firebase authentication to access the flutter Quiz Application. Admin will add a quiz test after it user will attend the quiz test. The result will be displayed instantly on the screen according to the number of questions answered correctly by the user which redirects to the celebration screen it also has a chatbot feature that uses the Dialogflow development
 # Output Result
 https://user-images.githubusercontent.com/112925756/206837802-6e959fc1-a1f7-4b1d-9aad-f9b69c5a63ac.mp4
 # Screenshot

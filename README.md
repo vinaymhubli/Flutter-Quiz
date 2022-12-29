@@ -4,7 +4,7 @@ Developed and implemented firebase authentication to access the flutter Quiz App
 ➊ Firebase Authentication\
 ➋ Forgot Password\
 ➌ Reset Password\
-➍ Multi- Quiz(flutter,dart,github)\
+➍ Multi- Quiz(c programming,flutter,dart,github)\
 ➎ Result Screen\
 ➏ Chatbot 
 # Output Result
